@@ -8,7 +8,7 @@ public class Pessoa {
 		setPeso(peso);
 	}
 
-	// herança "é um Comida" para nao gerar Polimorfismo sobrecarga;
+	// herança "é uma Comida" para nao gerar Polimorfismo sobrecarga;
 	public void comer(Comida comida) { 
 		this.peso += comida.getPeso();
 	}

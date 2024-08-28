@@ -4,7 +4,7 @@ public class Carro {
 
 	public final int velocidade_Maxima;
 	public int velocidade = 0;
-	private boolean ligado = false;
+	protected boolean ligado = false;
 
 	protected Carro(int velocidadeMaxima) {
 		velocidade_Maxima = velocidadeMaxima;

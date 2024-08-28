@@ -1,6 +1,6 @@
 package oo.polimorfismo;
 
-public class Comida {
+public abstract class Comida { // abstract não permite criar instancias;
 	
 	private double peso;
 
