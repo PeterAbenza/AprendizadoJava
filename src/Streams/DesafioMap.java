@@ -18,7 +18,8 @@ public class DesafioMap {
         Function<String, Integer> converter = num -> Integer.parseInt(num, 2); // O segundo argumento 2 é para indicar base binária;
         
         nums.stream()
-			.map(binarios)
+            // map é uma operação intermediária que aplica uma função a cada elemento do stream, produzindo um novo stream com os resultados.
+			.map(binarios) 
 			.map(inverter)
 			.map(converter)
 			.forEach(result -> {
